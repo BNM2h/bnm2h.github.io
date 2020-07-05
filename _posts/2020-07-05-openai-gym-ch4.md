@@ -44,9 +44,9 @@ ZaxxonNoFrameskip-v4
 env 목록을 보면 비슷한 이름들이 있는 것들을 볼 수 있습니다. 예를 들어 `Alien`이라는 단어가 들어간 environment는 8개가 있습니다. 여기서 8개는 다음에 소개할 명명법에서도 알 수 있듯이 조금씩만 다른 환경들입니다.
 
 # Nomenclature
-환경 명명법에 대해서 알아보자.
+환경 명명법에 대해서 알아봅시다.
 
-다음은 환경 이름에 붙는 옵션들이다.
+다음은 환경 이름에 붙는 옵션들입니다.
 
 * `ram`: Random Access Memory(RAM)의 내용으로 구성된 env
 * `deterministic`:
@@ -77,7 +77,7 @@ if __name__ == "__main__":
   run_gym_env(sys.argv)
 ```
 
-다음을 실행한 ipynb 파일은 [here]()을 참고하자.
+다음을 실행한 ipynb 파일은 [here]()을 참고해주세요.
 
 
 
@@ -85,8 +85,7 @@ if __name__ == "__main__":
 
 강화학습에서 나오는 핵심용어들이 agent 와 environment 사이에는 어떻게 상호작용 하는지 살펴봅니다.
 
-![image](../assets/gym_ch4/image.png)
-
+![image](../assets/gym_ch4/image2.png)
 
 먼저 gym 라이브러리를 불러온 후, `import gym`
 
@@ -95,7 +94,7 @@ make를 이용해서 원하는 환경을 설정합니다.
 
 Environment로부터 받은 값을 Observation(obs)라 정의하고, 초기상태의 obs는 다음과 같이 정의한다.
 
-![image](../assets/gym_ch4/image2.png)
+
 
 ...
 
@@ -115,17 +114,35 @@ Environment로부터 받은 값을 Observation(obs)라 정의하고, 초기상�
 |-|-|-|
 |-|-|-|
 
-전체 코드는 다음과 같다.
+전체 코드는 다음과 같습니다.
+
 ```python
+import gym
+from gym.spaces import *
+import sys
+def print_spaces(space):
+  print(space)
+  if isinstance(space, Box): # Print lower and upper bound if it's a Box
+space
+    print("\n space.low: ", space.low)
+    print("\n space.high: ", space.high)
 
-
+if __name__ == "__main__":
+  env = gym.make(sys.argv[1])
+  print("Observation Space:")
+  print_spaces(env.observation_space)
+  print("Action Space:")
+  print_spaces(env.action_space)
+  try:
+    print("Action description/meaning:",env.unwrapped.get_action_meanings())
+  except AttributeError:
+    pass
 ```
+
 |Index|Name/description|Min|Max|
 |-|-|-|-|
 |0|hull_angle|0|2*pi|
-|-|-|-|-|
-|-|-|-|-|
-
-
+|0|hull_angle|0|2*pi|
+|0|hull_angle|0|2*pi|
 
 # Summary
