@@ -77,7 +77,7 @@ if __name__ == "__main__":
   run_gym_env(sys.argv)
 ```
 
-다음을 실행한 ipynb 파일은 [here]()을 참고해주세요.
+다음을 실행한 [ipynb 파일](https://github.com/BNM2h/OpenAIGym_tutorial/blob/master/ch4/ch4_curieuxjy.ipynb)을 참고해주세요.
 
 
 
