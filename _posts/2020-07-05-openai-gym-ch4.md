@@ -2,7 +2,7 @@
 layout: post
 title:  "Chapter4"
 date:   2020-07-05 09:00:13
-categories: "Open AI Gym"
+categories: OpenAI_Gym
 permalink: /archivers/hello
 ---
 # T1
