@@ -1,0 +1,54 @@
+# Site settings
+title: BNM2h Blog
+url: "http://bnm2h.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
+baseurl: "/jekyll-theme-EasyBook" # the prefix of your site uri, eg. `"/jekyll-theme-EasyBook"` or empty string `""`
+#timezone: Asia/Chongqing
+description: >
+  Hello.
+
+# Your information
+email: curieuxjy@gmail.com
+author: BNM2h
+avatar: "//www.gravatar.com/avatar/your_email_md5?d=mm&s=135"
+profile: Hi.
+#twitter_username: twitter_username
+#github_username:  github_username
+profile_links:
+  Email: "curieuxjy@gmail.com"
+  GitHub: "https://github.com/BNM2h"
+  # You can add more profile links above, or edit _includes/sidebar.html 
+
+excerpt_separator: <!--more-->
+
+header:
+  links:             # Links on the header. Link to in-site page with a slash as prefix
+    About: /about/
+    Category: /category/
+    Test: /test/ #아니면 그냥 http 주소
+
+permalink: /archivers/:title
+plugins:
+ - jekyll-paginate
+ - jekyll-gist
+ - jemoji
+
+# Build settings
+paginate: 5
+paginate_path: "page:num"
+
+highlighter: rouge
+markdown: kramdown
+
+# https://jekyllrb.com/docs/configuration/#precedence
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  math_engine: mathjax
