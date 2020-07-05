@@ -85,7 +85,7 @@ if __name__ == "__main__":
 
 강화학습에서 나오는 핵심용어들이 agent 와 environment 사이에는 어떻게 상호작용 하는지 살펴봅니다.
 
-![image]("/assets/gym_ch4/image.png")
+![image](../assets/gym_ch4/image.png)
 
 
 먼저 gym 라이브러리를 불러온 후, `import gym`
@@ -95,7 +95,7 @@ make를 이용해서 원하는 환경을 설정합니다.
 
 Environment로부터 받은 값을 Observation(obs)라 정의하고, 초기상태의 obs는 다음과 같이 정의한다.
 
-![image]("/assets/gym_ch4/image2.png")
+![image](../assets/gym_ch4/image2.png)
 
 ...
 
