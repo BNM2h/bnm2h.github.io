@@ -14,7 +14,7 @@ profile: Hi.
 #twitter_username: twitter_username
 #github_username:  github_username
 profile_links:
-  Email: "curieuxjy@gmail.com"
+  #Email: "curieuxjy@gmail.com"
   GitHub: "https://github.com/BNM2h"
   # You can add more profile links above, or edit _includes/sidebar.html 
 
