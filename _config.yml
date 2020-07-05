@@ -1,7 +1,7 @@
 # Site settings
 title: BNM2h Blog
 url: "http://bnm2h.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
-baseurl: "" # the prefix of your site uri, eg. `"/jekyll-theme-EasyBook"` or empty string `""`
+baseurl: "https://github.com/BNM2h/" # the prefix of your site uri, eg. `"/jekyll-theme-EasyBook"` or empty string `""`
 #timezone: Asia/Chongqing
 description: >
   Hello.
@@ -9,7 +9,7 @@ description: >
 # Your information
 email: curieuxjy@gmail.com
 author: BNM2h
-avatar: "//www.gravatar.com/avatar/your_email_md5?d=mm&s=135"
+avatar: "https://github.com/BNM2h/Basic_RL/blob/master/img/BNM2h.png"
 profile: Hi.
 #twitter_username: twitter_username
 #github_username:  github_username
