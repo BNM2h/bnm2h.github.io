@@ -2,7 +2,7 @@
 layout: post
 title:  "Chapter4"
 date:   2020-07-05 09:00:13
-categories: Open AI Gym
+categories: "Open AI Gym"
 permalink: /archivers/hello
 ---
 # T1
@@ -52,21 +52,4 @@ You are using [EasyBook][github-easybook] the template from [laobubu.net](http:/
 
 EasyBook uses upaiyun CDN to make everyone lncluding Chinese visitors feel speedy. You can find it in `_includes/footer.html` and change it to your favorite CDN like Google CDN.
 
-## Support me by... ##
 
-### Add a link ###
-
-EasyBook does not make the footer heavy; the link to theme could be on `about.md`:
-
-> This website is using [laobubu](http://laobubu.net)'s theme: [EasyBook](https://github.com/laobubu/jekyll-theme-EasyBook)
-
-
-## And Here We Go ##
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
-
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
-[frontmatter]: http://jekyllrb.com/docs/frontmatter/
-[github-easybook]: https://github.com/laobubu/jekyll-theme-EasyBook
